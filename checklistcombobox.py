@@ -102,9 +102,9 @@ class ChecklistCombobox(ttk.Combobox):
         checkbutton_
         checkbutton_selected_
         ```
-    Prefix 'checkbutton_selected_' can be used to specify the Checkbutton attributes
-    when they are highlighted, but only the 'background', 'foreground',
-    'selectcolor', 'activeforeground', and 'activebackground'.
+    Prefix `checkbutton_selected_` can be used to specify the Checkbutton attributes
+    when they are highlighted, but only the `background`, `foreground`,
+    `selectcolor`, `activeforeground`, and `activebackground`.
     Be careful when using `popdown_frame_` and `scrollbar_` because they are special 
     widgets exclusive to the Combobox Popdown menu. You can list their options by 
     doing `print(cb.popdown_frame.configure())`. All other prefixes work in the way 
@@ -114,12 +114,12 @@ class ChecklistCombobox(ttk.Combobox):
         ChecklistCombobox.configure(prefix_X)
         ```
     You can even configure the checkbuttons separately by giving an array-like
-    (list, tuple, or numpy.ndarray) argument where the elements have the same order
-    as the `values` keyword.
-    
+    (`list`, `tuple`, or `numpy.ndarray`) argument where the elements have the same
+    order as the `values` keyword.
+
     So as to avoid confusion, the original ttk.Combobox tcl source code which this
     code was based on has been included at the bottom of this code.
-    
+
     Also near the bottom of this code is a short test program you can use simply by
     running `python checklistcombobox.py`.
     """
