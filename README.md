@@ -13,6 +13,13 @@ current working directory, or you can do,
 pip install ChecklistCombobox
 ```
 
+NOTE: You may need to also update your version even after installing for the
+first time. I am new to using PyPI, so I probably messed something up, but
+executing the following command after installing seems to work,
+```
+pip install --upgrade ChecklistCombobox
+```
+
 ## Description
 
 The standard Listbox widget from ttk.Combobox is unfortunately inseparable from
