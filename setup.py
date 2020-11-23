@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ChecklistCombobox-hatfullr", # Replace with your own username
+    name="ChecklistCombobox",
     version="1.0",
     author="Roger Hatfull",
     author_email="rogerhatfull@gmail.com",

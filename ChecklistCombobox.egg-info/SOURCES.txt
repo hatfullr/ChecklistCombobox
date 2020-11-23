@@ -1,0 +1,7 @@
+README.md
+setup.py
+ChecklistCombobox.egg-info/PKG-INFO
+ChecklistCombobox.egg-info/SOURCES.txt
+ChecklistCombobox.egg-info/dependency_links.txt
+ChecklistCombobox.egg-info/top_level.txt
+init/__init__.py

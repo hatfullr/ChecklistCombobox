@@ -1,7 +1,0 @@
-README.md
-setup.py
-ChecklistCombobox_hatfullr.egg-info/PKG-INFO
-ChecklistCombobox_hatfullr.egg-info/SOURCES.txt
-ChecklistCombobox_hatfullr.egg-info/dependency_links.txt
-ChecklistCombobox_hatfullr.egg-info/top_level.txt
-init/__init__.py

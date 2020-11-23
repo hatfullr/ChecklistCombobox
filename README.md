@@ -6,6 +6,15 @@ identically to a ttk.Combobox, except for some fringe cases. Learning from
 mistakes made in tkinter, this widget is fully customizable to the extent that
 tkinter allows.
 
+## Install
+To install, you can either download checklistcombobox.py and place it in your
+current working directory, or you can do,
+```
+pip install ChecklistCombobox
+```
+
+## Description
+
 The standard Listbox widget from ttk.Combobox is unfortunately inseparable from
 the popdown menu because a majority of the tcl code for ttk.Combobox would need
 to be replaced. This would mangle any other regular ttk.Combobox widgets
