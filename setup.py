@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ChecklistCombobox",
-    version="1.0",
+    version="1.1",
     author="Roger Hatfull",
     author_email="rogerhatfull@gmail.com",
     description="A Tkinter widget that uses Checkbutton widgets inside a Combobox widget",

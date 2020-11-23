@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ChecklistCombobox
-Version: 1.0
+Version: 1.1
 Summary: A Tkinter widget that uses Checkbutton widgets inside a Combobox widget
 Home-page: https://github.com/hatfullr/ChecklistCombobox
 Author: Roger Hatfull

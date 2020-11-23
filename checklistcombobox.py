@@ -47,7 +47,7 @@ import numpy as np
 
 class ChecklistCombobox(ttk.Combobox):
     """
-    ChecklistCombobox v1.0
+    ChecklistCombobox v1.1
     Author: Roger Hatfull
     November 2020
     
@@ -153,6 +153,7 @@ class ChecklistCombobox(ttk.Combobox):
         self.checkbutton_frame = tk.Frame(self.canvas) # Checkbutton container
         self.checkbuttons = []
         self.variables = []
+        self.selection = None
         if len(self.values) > 0: self.create_checkbuttons()
             
         
@@ -198,8 +199,7 @@ class ChecklistCombobox(ttk.Combobox):
                                                         selectcolor=self.checkbutton_selected_selectcolor[self.selection],
                                                         activebackground=self.checkbutton_selected_activebackground[self.selection],
                                                         activeforeground=self.checkbutton_selected_activeforeground[self.selection])
-        else:
-            self.selection = None
+            
             
         ### Create keybindings
         
